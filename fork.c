@@ -4,7 +4,7 @@
 int main()
 {
   int i = 999;
-  int child_pid = fork();
+  int child_pid = fork(); // fork returns TWICE
 
   if (child_pid == 0)
   {
